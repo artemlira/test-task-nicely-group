@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet"/>
+    <title>Просування та статистика</title>
+</head>
+<body>
+<main class="main__wrapper">
+    <div>
+        <img
+                alt="statistics icon"
+                height="20"
+                src="./images/statistics.svg"
+                width="20"
+        >
+        <h1 class="main__title">Просування та статистика</h1>
+    </div>
+    <div class="main__container content">
+        <header class="content__header">
+            <h2 class="content__title section-margin">Гнучке просування</h2>
+            <div class="header__icons section-margin">
+                <div class="header__icon_rectangle"><span></span></div>
+                <svg class="header__icon_update" height="20" width="20">
+                    <use href="images/icons.svg#update"></use>
+                </svg>
+            </div>
+        </header>
+        <form class="content__form section-margin">
+            <div class="form__title">
+                <h3>Вибрана послуга:</h3>
+                <a href="#">Ворожіння на рунах (id88035535)</a>
+            </div>
+            <ul class="form__list">
+                <li class="form__item">
+                    <p>Категорія
+                        <svg class="form__icon_down" height="20" width="20">
+                            <use href="images/icons.svg#down"></use>
+                        </svg>
+                    </p>
+                    <div class="form__input">
+                        <input checked id="esoteric" name="category" type="checkbox"><label
+                            for="esoteric">Езотерика</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance" name="category" type="checkbox">
+                        <label for="clairvoyance">Ясновидіння</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="numerology" name="category" type="checkbox">
+                        <label for="numerology">Нумерологія</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="esoteric-2" name="category" type="checkbox">
+                        <label for="esoteric-2">Езотерика 2</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-3" name="category" type="checkbox">
+                        <label for="clairvoyance-3">Ясновидіння 3</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-4" name="category" type="checkbox">
+                        <label for="clairvoyance-4">Ясновидіння 4</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-5" name="category" type="checkbox">
+                        <label for="clairvoyance-5">Ясновидіння 5</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-6" name="category" type="checkbox">
+                        <label for="clairvoyance-6">Ясновидіння 6</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-7" name="category" type="checkbox">
+                        <label for="clairvoyance-7">Ясновидіння 7</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="clairvoyance-8" name="category" type="checkbox">
+                        <label for="clairvoyance-8">Ясновидіння 8</label>
+                    </div>
+                </li>
+                <li class="form__item">
+                    <p>Призначення
+                        <svg class="form__icon_down" height="20" width="20">
+                            <use href="images/icons.svg#down"></use>
+                        </svg>
+                    </p>
+                    <div class="form__input">
+                        <input checked id="main" name="function" type="checkbox"><label
+                            for="main">Головні</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="out" name="function" type="checkbox">
+                        <label for="out">Зовнішні</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in" name="function" type="checkbox">
+                        <label for="in">Внутрішньо</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-2" name="function" type="checkbox">
+                        <label for="in-2">Внутрішньо 2</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-3" name="function" type="checkbox">
+                        <label for="in-3">Внутрішньо 3</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-4" name="function" type="checkbox">
+                        <label for="in-4">Внутрішньо 4</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-5" name="function" type="checkbox">
+                        <label for="in-5">Внутрішньо 5</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-6" name="function" type="checkbox">
+                        <label for="in-6">Внутрішньо 6</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-7" name="function" type="checkbox">
+                        <label for="in-7">Внутрішньо 7</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="in-8" name="function" type="checkbox">
+                        <label for="in-8">Внутрішньо 8</label>
+                    </div>
+                </li>
+                <li class="form__item">
+                    <p>Тип просування
+                        <svg class="form__icon_down" height="20" width="20">
+                            <use href="images/icons.svg#down"></use>
+                        </svg>
+                    </p>
+                    <div class="form__input">
+                        <input checked id="up-to-top" name="promotion" type="checkbox"><label
+                            for="up-to-top">Підняти в топ</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="up-rating" name="promotion" type="checkbox">
+                        <label for="up-rating">Підняти рейтинг</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update" name="promotion" type="checkbox">
+                        <label for="update">Оновити</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-2" name="promotion" type="checkbox">
+                        <label for="update-2">Оновити 2</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-3" name="promotion" type="checkbox">
+                        <label for="update-3">Оновити 3</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-4" name="promotion" type="checkbox">
+                        <label for="update-4">Оновити 4</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-5" name="promotion" type="checkbox">
+                        <label for="update-5">Оновити 5</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-6" name="promotion" type="checkbox">
+                        <label for="update-6">Оновити 6</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-7" name="promotion" type="checkbox">
+                        <label for="update-7">Оновити 7</label>
+                    </div>
+                    <div class="form__input">
+                        <input id="update-8" name="promotion" type="checkbox">
+                        <label for="update-8">Оновити 8</label>
+                    </div>
+                </li>
+                <li class="form__item">
+                    <p>Інтервал
+                        <svg class="form__icon_down" height="20" width="20">
+                            <use href="images/icons.svg#down"></use>
+                        </svg>
+                    </p>
+                    <div class="form__input_intervals">
+                        <div class="form__input_intervals-numbers">
+                            <div class="form__input">
+                                <input checked id="1" name="promotion" type="checkbox">
+                                <label for="1">1</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="3" name="promotion" type="checkbox">
+                                <label for="3">3</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="6" name="promotion" type="checkbox">
+                                <label for="6">6</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="9" name="promotion" type="checkbox">
+                                <label for="9">9</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="12" name="promotion" type="checkbox">
+                                <label for="12">12</label>
+                            </div>
+                        </div>
+                        <div class="form__input_intervals-days">
+                            <div class="form__input">
+                                <input checked id="day" name="promotion" type="checkbox">
+                                <label for="day">День</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="time" name="promotion" type="checkbox">
+                                <label for="time">Час</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="week" name="promotion" type="checkbox">
+                                <label for="week">неділя</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="month" name="promotion" type="checkbox">
+                                <label for="month">Місяць</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="month-2" name="promotion" type="checkbox">
+                                <label for="month-2">Місяць 2</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="month-3" name="promotion" type="checkbox">
+                                <label for="month-3">Місяць 3</label>
+                            </div>
+                            <div class="form__input">
+                                <input id="month-4" name="promotion" type="checkbox">
+                                <label for="month-4">Місяць 4</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </form>
+        <section class="coverage">
+            <div class="section__title">
+                <h2 class="section-margin">Передбачуване охоплення</h2>
+            </div>
+            <div class="coverage__cards">
+                <div class="coverage__statistics section-margin">
+                    <ul class="coverage__statistics_list">
+                        <li class="coverage__statistics_item">
+                            <p class="statistics__item_text">Ваша послуга у рейтингу</p>
+                            <div class="statistics__item_icon">
+                                <img
+                                        alt="icon rating"
+                                        height="28"
+                                        loading="lazy"
+                                        src="./images/rating.svg"
+                                        width="28"
+                                >
+                            </div>
+                            <p class="statistic__item_number">15</p>
+                        </li>
+                        <li class="coverage__statistics_item">
+                            <p class="statistics__item_text">Очікуване охоплення аудиторії</p>
+                            <div class="statistics__item_icon">
+                                <img
+                                        alt="icon activity"
+                                        height="28"
+                                        loading="lazy"
+                                        src="./images/activity.svg"
+                                        width="28"
+                                >
+                            </div>
+                            <p class="statistic__item_number">67%</p></li>
+                        <li class="coverage__statistics_item">
+                            <p class="statistics__item_text">Середній результат показів</p>
+                            <div class="statistics__item_icon">
+                                <img
+                                        alt="icon eye"
+                                        height="28"
+                                        loading="lazy"
+                                        src="./images/eye.svg"
+                                        width="28"
+                                >
+                            </div>
+                            <p class="statistic__item_number">1500</p>
+                        </li>
+                        <li class="coverage__statistics_item">
+                            <p class="statistics__item_text">Можливість продажів</p>
+                            <div class="statistics__item_icon">
+                                <img
+                                        alt="icon clever"
+                                        height="28"
+                                        loading="lazy"
+                                        src="./images/clever.svg"
+                                        width="28"
+                                >
+                            </div>
+                            <p class="statistic__item_number">89%</p>
+                        </li>
+                    </ul>
+                    <a class="coverage__info_btn" href="#">
+                        <svg class="coverage__info_icon" height="18" width="18">
+                            <use href="images/icons.svg#info"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="coverage__assortment section-margin">
+                    <ul class="assortment__headers_list">
+                        <li class="assortment__headers_item"><p>Покази у категорії</p></li>
+                        <li class="assortment__headers_item"><p>Призначення</p></li>
+                        <li class="assortment__headers_item"><p>Тип просування</p></li>
+                        <li class="assortment__headers_item"><p>Інтервал показів</p></li>
+                    </ul>
+                    <ul class="assortment__values_list">
+                        <li class="assortment__values_item">Езотерика</li>
+                        <li class="assortment__values_item">Головна</li>
+                        <li class="assortment__values_item">Підняти в топ</li>
+                        <li class="assortment__values_item">1 день</li>
+                    </ul>
+                    <ul class="assortment__tariff_list">
+                        <li class="assortment__tariff_item"><p class="assortment__tariff_name">Назва пакету</p></li>
+                        <li class="assortment__tariff_item"><p class="assortment__tariff_term">Чинний до 22.09.2021</p>
+                        </li>
+                    </ul>
+                    <ul class="assortment__costs_list">
+                        <li class="assortment__cost_item assortment__cost_item_name"><p>Вартість:</p></li>
+                        <li class="assortment__cost_item assortment__cost_item_value"><p>200,00</p><img
+                                alt="icon clever"
+                                height="28"
+                                loading="lazy"
+                                src="./images/clever.svg"
+                                width="28"
+                        ></li>
+                        <li class="assortment__cost_item assortment__cost_item_buttons">
+                            <button class="assortment__cost_postpone_button" type="button">Відкласти</button>
+                            <div class="assortment__cost_promote_button_wrapper">
+                                <button class="assortment__cost_promote_button" type="button">Просувати</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="cases">
+            <div class="section__title">
+                <h2 class="section-margin">Пропоновані кейси просування</h2>
+            </div>
+            <ul class="cases__cards_list">
+                <li class="cases__card_item section-margin">
+                    <h3 class="card__item_name section-margin">Базове</h3>
+                    <p class="card__item_period section-margin">10<span>/місяць</span></p>
+                    <p class="card__item_text section-margin">Дуже важливо мати службу обслуговування клієнтів, але це
+                        просто так.</p>
+                    <button class="card__item_button section-margin" type="button">Замовити</button>
+                    <div class="card__item_peculiarities section-margin">
+                        <h4 class="peculiarity_title">Особливості</h4>
+                        <p class="peculiarity_subtitle">Базове</p>
+                        <ul class="peculiarities__list">
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cases__card_item section-margin is-popular">
+                    <h3 class="card__item_name">Преміум</h3>
+                    <p class="card__item_period">29<span>/місяць</span></p>
+                    <p class="card__item_text">Дуже важливо мати службу обслуговування клієнтів, але це просто так.</p>
+                    <button class="card__item_button" type="button">Замовити</button>
+                    <div class="card__item_peculiarities">
+                        <h4 class="peculiarity peculiarity_title">Особливості</h4>
+                        <p class="peculiarity peculiarity_subtitle">Преміум</p>
+                        <ul class="peculiarities__list">
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="cases__card_item section-margin">
+                    <h3 class="card__item_name">Бізнес</h3>
+                    <p class="card__item_period">59<span>/місяць</span></p>
+                    <p class="card__item_text">Дуже важливо мати службу обслуговування клієнтів, але це просто так.</p>
+                    <button class="card__item_button" type="button">Замовити</button>
+                    <div class="card__item_peculiarities">
+                        <h4 class="peculiarity peculiarity_title">Особливості</h4>
+                        <p class="peculiarity peculiarity_subtitle">Бізнес</p>
+                        <ul class="peculiarities__list">
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                            <li class="peculiarity__item">
+                                <img
+                                        alt="check icon gradient"
+                                        class="peculiarity__item_image"
+                                        height="14"
+                                        loading="lazy"
+                                        src="./images/check.svg"
+                                        width="14"
+                                >
+                                <p class="peculiarity__item_text">Особливість номер 1</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="cases__modal_window">
+                <ul class="cases_modal_window_list">
+                    <li class="cases__modal_window_item_title"><p>Назва пакету</p></li>
+                    <li class="cases__modal_window_item_name">
+                        <p>Вартість:</p>
+                        <p>200,00</p>
+                        <img
+                                alt="icon clever"
+                                height="28"
+                                loading="lazy"
+                                src="./images/clever.svg"
+                                width="28"
+                        >
+                    </li>
+                    <li class="cases__modal_window_item_buttons">
+                        <button class="assortment__cost_postpone_button" type="button">Відкласти</button>
+                        <div class="assortment__cost_promote_button_wrapper">
+                            <button class="assortment__cost_promote_button" type="button">Застосувати зараз</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</main>
+</body>
+</html>
